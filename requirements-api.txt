@@ -1,0 +1,6 @@
+# Deps for the HTTP API only (assistant/api.py never imports speech.py).
+# Use this on hosts that can't build PyAudio or only run WSGI, e.g. PythonAnywhere free tier.
+fastapi>=0.110
+uvicorn>=0.29
+a2wsgi>=1.10          # runs the ASGI app under a WSGI server
+requests>=2.31
