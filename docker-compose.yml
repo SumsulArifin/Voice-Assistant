@@ -1,0 +1,13 @@
+services:
+  assistant:
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./contacts.json:/app/contacts.json
+      - ./custom_commands.json:/app/custom_commands.json
+      - ./knowledge_base.json:/app/knowledge_base.json
+    # Uncomment to use the real microphone/speaker instead of --text --mute:
+    # devices:
+    #   - /dev/snd:/dev/snd
+    # command: ["python", "-m", "assistant"]

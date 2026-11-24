@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "voice-assistant-ui",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "../Voice-Assistant-UI", "run", "dev"],
+      "port": 3000
+    }
+  ]
+}

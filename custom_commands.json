@@ -1,0 +1,17 @@
+[
+  {
+    "phrases": ["tell me a joke", "make me laugh"],
+    "action": "reply",
+    "value": "Why do programmers prefer dark mode? Because light attracts bugs."
+  },
+  {
+    "phrases": ["open youtube", "take me to youtube"],
+    "action": "url",
+    "value": "https://www.youtube.com"
+  },
+  {
+    "phrases": ["good night"],
+    "action": "reply",
+    "value": "Good night! Sleep well."
+  }
+]
